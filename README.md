@@ -1,6 +1,7 @@
 # Linuxer
 
 ![screenshot](screenshot.png)
+
 Linuxer is a powerful Oh-My-Zsh theme inspired by Yaris Alex Gutierrez's classyTouch, Yad Smood's ys, and Bureau theme. It features:
 
 - Current Line of Command
@@ -13,6 +14,7 @@ Linuxer is a powerful Oh-My-Zsh theme inspired by Yaris Alex Gutierrez's classyT
 ## Installation
 
 type the following in the terminal:
+
 `curl https://raw.githubusercontent.com/patrick330602/linuxer/master/linuxer.zsh-theme >> ~/.oh-my-zsh/themes/linuxer.zsh-theme`
 
 ## License
