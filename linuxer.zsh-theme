@@ -47,7 +47,7 @@ local rvm_info='$(rvm_prompt_info)'
 ZSH_THEME_RVM_PROMPT_PREFIX="${YS_VCS_PROMPT_PREFIX}%{$reset_color%}"
 ZSH_THEME_RVM_PROMPT_SUFFIX="$YS_VCS_PROMPT_SUFFIX"
 
-local current_info='[%B%*%b] %h::%{$fg[cyan]%}%n%B(%l)%{$reset_color%}%b %B@%b %{$fg[green]%}%m%{$reset_color%}'
+local current_info='[%B%*%b] %h::%{$fg[cyan]%}%n%B(%y)%{$reset_color%}%b %B@%b %{$fg[green]%}%m%{$reset_color%}'
 local exit_code="%(?,%?,%{$fg[red]%}%B%?%b%{$reset_color%})"
 
 PROMPT="${current_info}${current_dir}${git_info}${hg_info}
