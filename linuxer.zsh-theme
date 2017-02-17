@@ -52,5 +52,5 @@ local current_info='[%B%*%b] %h::${current_name}%{$fg[cyan]%}%B(%y)%{$reset_colo
 local exit_code="%(?,%?,%{$fg[red]%}%B%?%b%{$reset_color%})"
 
 PROMPT="${current_info}${current_dir}${git_info}${hg_info}
-[$exit_code]%# "
+[$exit_code]> "
 RPROMPT="${nvm_info}${rvm_info}"
