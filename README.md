@@ -13,9 +13,11 @@ Linuxer is a powerful Oh-My-Zsh theme inspired by Yaris Alex Gutierrez's classyT
 
 ## Installation
 
+**wget should be installed**
+
 type the following in the terminal:
 
-`curl https://raw.githubusercontent.com/patrick330602/linuxer/master/linuxer.zsh-theme >> ~/.oh-my-zsh/themes/linuxer.zsh-theme`
+`wget https://raw.githubusercontent.com/patrick330602/linuxer/master/linuxer.zsh-theme ~/.oh-my-zsh/themes/linuxer.zsh-theme`
 
 ## License
 
