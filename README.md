@@ -33,6 +33,7 @@ type the following in the terminal:
 
 `wget -p https://raw.githubusercontent.com/patrick330602/linuxer/master/linuxer-fancy.zsh-theme -O ~/.oh-my-zsh/themes/linuxer-fancy.zsh-theme`
 
+> If you want to use virtualenv, please insert `export VIRTUAL_ENV_DISABLE_PROMPT=1` into your shell configuration file
 
 ## License
 

@@ -197,10 +197,10 @@ prompt_dir() {
 
 # Virtualenv: current working virtualenv
 prompt_virtualenv() {
-  local virtualenv_path="$VIRTUAL_ENV"
-  if [[ -n $virtualenv_path && -n $VIRTUAL_ENV_DISABLE_PROMPT ]]; then
-    prompt_segment blue white "(`basename $virtualenv_path`)"
-  fi
+ if [[ -n $VIRTUAL_ENV ]]; then
+    data=`print -Pn " $(basename $VIRTUAL_ENV) "`
+		prompt_segment yellow black "$data"
+fi 
 }
 
 # Status:
